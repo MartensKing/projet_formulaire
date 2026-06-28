@@ -4,8 +4,8 @@ function validerPassword(valeur) {
         return { valide: false, message: "le mot de passe est requis" }
 
     }
-    if (valeur.lenght <= 9) {
-        return { valide: false, message: "le mot de passe doit contenir au moins 9 caracteres" }
+    if (valeur.lengh <= 7) {
+        return { valide: false, message: "le mot de passe ne contien pas assez de caracteres" }
     }
     if (!/\d/.test(valeur)) {
         return { valide: false, message: "le mot de passe doit contenir au moins un chiffre" }
