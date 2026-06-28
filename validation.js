@@ -11,7 +11,7 @@ function validerPassword(valeur) {
     }
     //\d signifie un chiffre et !/ inverse le resultat
     if (!/\d/.test(valeur)) {
-        return { valide: false, message: "le mot de passe doit contenir au moins un chiffre" }
+        return { valide: false, message: "le mot de passe doit  contenir au moins un chifre" }
     }
     //[A-Z] designe une lettre majuscule et !/ inverse le resultat
     if (!/[A-Z]/.test(valeur)) {
