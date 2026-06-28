@@ -1,3 +1,4 @@
+//travail Adam
 function validerPassword(valeur) {
     if (!valeur) {
         return { valide: false, message: "le mot de passe est requis" }
